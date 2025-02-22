@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using DesignPatterns.SOLID.SRP;
+﻿using DesignPatterns.SOLID.SRP;
+using DesignPatterns.SOLID.OCP;
 
-SingleResponsibilityPrinciple.RunDemo();
+//SingleResponsibilityPrinciple.RunDemo();
+OpenClosedPrinciple.RunDemo();

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using static System.Console;
 
 namespace DesignPatterns.SOLID.SRP
 {
@@ -65,7 +61,7 @@ namespace DesignPatterns.SOLID.SRP
             var j = new Comment();
             j.AddEntry("This is the Single Responsibility Principle.");
             j.AddEntry("It makes part of SOLID Design Principles.");
-            Console.WriteLine(j);
+            WriteLine(j);
 
             var p = new Persistence();
             var filename = @"c:\temp\comment.txt";

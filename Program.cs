@@ -7,6 +7,9 @@ using DesignPatterns.SOLID.DIP;
 using DesignPatterns.Bridge;
 using DesignPatterns.Bridge.Exercises;
 
+using DesignPatterns.Facade;
+using DesignPatterns.Facade.Exercises;
+
 //SingleResponsibilityPrinciple.RunDemo();
 //OpenClosedPrinciple.RunDemo();
 //LiskovSubstitutionPrinciple.RunDemo();
@@ -15,3 +18,6 @@ using DesignPatterns.Bridge.Exercises;
 
 //Bridge.RunDemo();
 //BridgeCodingExercise.RunExercise();
+
+//Facade.RunDemo();
+//FacadeCodingExercise.RunExercise();

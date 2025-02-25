@@ -10,6 +10,9 @@ using DesignPatterns.Bridge.Exercises;
 using DesignPatterns.Facade;
 using DesignPatterns.Facade.Exercises;
 
+using DesignPatterns.Template;
+using DesignPatterns.Template.Exercises;
+
 //SingleResponsibilityPrinciple.RunDemo();
 //OpenClosedPrinciple.RunDemo();
 //LiskovSubstitutionPrinciple.RunDemo();
@@ -21,3 +24,6 @@ using DesignPatterns.Facade.Exercises;
 
 //Facade.RunDemo();
 //FacadeCodingExercise.RunExercise();
+
+Template.RunDemo();
+TemplateCodingExercise.RunExercise();

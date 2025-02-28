@@ -16,6 +16,11 @@ using DesignPatterns.Template.Exercises;
 using DesignPatterns.Flyweight;
 using DesignPatterns.Flyweight.Exercises;
 
+using DesignPatterns.Strategy.Dynamic;
+using DesignPatterns.Strategy.EqualityAndComparasion;
+using DesignPatterns.Strategy.Static;
+using DesignPatterns.Strategy.Exercises;
+
 //SingleResponsibilityPrinciple.RunDemo();
 //OpenClosedPrinciple.RunDemo();
 //LiskovSubstitutionPrinciple.RunDemo();
@@ -31,5 +36,10 @@ using DesignPatterns.Flyweight.Exercises;
 //Template.RunDemo();
 //TemplateCodingExercise.RunExercise();
 
-Flyweight.RunDemo();
-FlyweightCodingExercise.RunExercise();
+//Flyweight.RunDemo();
+//FlyweightCodingExercise.RunExercise();
+
+DynamicStrategy.RunDemo();
+StaticStrategy.RunDemo();
+EqualityAndComparasionStrategies.RunDemo();
+StrategyCodingExercise.RunExercise();

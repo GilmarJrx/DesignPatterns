@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ImpromptuInterface" Version="8.0.6" />
+    <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
     <PackageReference Include="Reqnroll.Autofac" Version="2.3.0" />
   </ItemGroup>
 

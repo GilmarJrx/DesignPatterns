@@ -26,6 +26,9 @@ using DesignPatterns.NullObject.Singleton;
 using DesignPatterns.NullObject.Exercises;
 using DesignPatterns.NullObject;
 
+using DesignPatterns.Memento;
+using DesignPatterns.Memento.Exercises;
+
 //SingleResponsibilityPrinciple.RunDemo();
 //OpenClosedPrinciple.RunDemo();
 //LiskovSubstitutionPrinciple.RunDemo();
@@ -49,7 +52,10 @@ using DesignPatterns.NullObject;
 //EqualityAndComparasionStrategies.RunDemo();
 //StrategyCodingExercise.RunExercise();
 
-DynamicNullObject.RunDemo();
-NullObjectSingleton.RunDemo();
-NullObject.RunDemo();
-NullObjectCodingExercise.RunExercise();
+//DynamicNullObject.RunDemo();
+//NullObjectSingleton.RunDemo();
+//NullObject.RunDemo();
+//NullObjectCodingExercise.RunExercise();
+
+DesignPatterns.Memento.Memento.RunDemo();
+MementoCodingExercise.RunExercise();

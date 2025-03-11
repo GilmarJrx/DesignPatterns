@@ -29,6 +29,9 @@ using DesignPatterns.NullObject;
 using DesignPatterns.Memento;
 using DesignPatterns.Memento.Exercises;
 
+using DesignPatterns.Composite;
+using DesignPatterns.Composite.Exercises;
+
 //SingleResponsibilityPrinciple.RunDemo();
 //OpenClosedPrinciple.RunDemo();
 //LiskovSubstitutionPrinciple.RunDemo();
@@ -57,5 +60,8 @@ using DesignPatterns.Memento.Exercises;
 //NullObject.RunDemo();
 //NullObjectCodingExercise.RunExercise();
 
-DesignPatterns.Memento.Memento.RunDemo();
-MementoCodingExercise.RunExercise();
+//DesignPatterns.Memento.Memento.RunDemo();
+//MementoCodingExercise.RunExercise();
+
+Composite.RunDemo();
+CompositeCodingExercise.RunExercise();
